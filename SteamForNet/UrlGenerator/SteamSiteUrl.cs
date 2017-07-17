@@ -9,7 +9,7 @@ namespace SteamForNet
         /// <summary>
         /// Gets the root URL for the steam store's website.
         /// </summary>
-        public static string rootUrl
+        public static string RootUrl
         {
             get
             {
@@ -20,11 +20,11 @@ namespace SteamForNet
         /// <summary>
         /// Returns the URL string containing the entire steam game library.
         /// </summary>
-        public static string allProgramsUrl
+        public static string AllProgramsUrl
         {
             get
             {
-                return rootUrl + "search/";
+                return RootUrl + "search/";
             }
         }
 
@@ -32,7 +32,7 @@ namespace SteamForNet
         {
             get
             {
-                return rootUrl + "app/";
+                return RootUrl + "app/";
             }
         }
 

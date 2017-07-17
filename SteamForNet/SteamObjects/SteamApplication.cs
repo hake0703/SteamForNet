@@ -9,37 +9,37 @@ namespace SteamForNet
         /// <summary>
         /// The steam application ID.
         /// </summary>
-        protected int appId
+        protected int Id
         {
-            get { return appId; }
-            set { appId = value; }
+            get { return Id; }
+            set { Id = value; }
         }
 
         /// <summary>
         /// The title of the application.
         /// </summary>
-        protected string name
+        protected string Name
         {
-            get { return name; }
-            set { name = value; }
+            get { return Name; }
+            set { Name = value; }
         }
 
         /// <summary>
         /// Current Steam price of the application.
         /// </summary>
-        protected decimal price
+        protected decimal Price
         {
-            get { return price; }
-            set { price = value; }
+            get { return Price; }
+            set { Price = value; }
         }
         
         /// <summary>
         /// Current steam rating of the application.
         /// </summary>
-        protected string rating
+        protected string Rating
         {
-            get { return rating; }
-            set { rating = value; }
+            get { return Rating; }
+            set { Rating = value; }
         }
     }
 }

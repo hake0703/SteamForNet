@@ -8,11 +8,11 @@ namespace SteamForNet
     public class SteamSiteProductSpecialsUrl:SteamSiteUrl
     {
         //Contains the base url for the specials area of the site.
-        private static string _gameSpecials
+        private string _gameSpecials
         {
             get
             {
-                return allProgramsUrl + "?specials=1"; //Needs a number appened to the end of it that corresponds to the page number for the site.
+                return $"{AllProgramsUrl}?specials=1"; //Needs a number appened to the end of it that corresponds to the page number for the site.
             }
         }
 
@@ -26,7 +26,7 @@ namespace SteamForNet
             if (pageNumber == 1)
                 return _gameSpecials;
             else
-                return _gameSpecials + SteamSiteFormattingUrl.additional + "page=" + pageNumber.ToString();
+                return $"{_gameSpecials}{SteamSiteFormattingUrl.Additional}page{pageNumber.ToString()}";
         }
     }
 }

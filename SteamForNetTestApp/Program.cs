@@ -8,7 +8,7 @@ namespace SteamForNetTestApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(SteamSiteFormattingUrl.filter);
+            Console.WriteLine(SteamSiteFormattingUrl.Filter);
 
             SteamSiteProductSpecialsUrl url = new SteamSiteProductSpecialsUrl();
             

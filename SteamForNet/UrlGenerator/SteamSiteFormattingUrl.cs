@@ -6,7 +6,7 @@ namespace SteamForNet
 {
     public static class SteamSiteFormattingUrl
     {
-        public static string filter { get; } = "?";
-        public static string additional { get; } = "&";
+        public static string Filter { get; } = "?";
+        public static string Additional { get; } = "&";
     }
 }
