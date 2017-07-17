@@ -8,14 +8,13 @@ namespace SteamForNet
     {
         public SteamOwner(string steamAPIKey)
         {
-            this.steamAPIKey = steamAPIKey;
+            this.SteamAPIKey = steamAPIKey;
         }
 
-        private string _steamAPIKey = null;
-        public string steamAPIKey
+        public string SteamAPIKey
         {
-            get { return _steamAPIKey; }
-            set { _steamAPIKey = value; }
+            get { return SteamAPIKey; }
+            set { SteamAPIKey = value; }
         }
     }
 }
